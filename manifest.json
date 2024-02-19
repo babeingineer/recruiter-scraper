@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "NetNabber",
+    "description": "Seek Employer Scraper Version 1.0 Beta",
+    "version": "1.0",
+    "action": {
+      "default_popup": "hello.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest"
+    ],
+    "host_permissions": [
+        "https://id.employer.seek.com/*"
+    ]
+}
